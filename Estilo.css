@@ -1,5 +1,6 @@
 body{
     background-color: rgb(212, 124, 212);
+    text-align: center;
 }
 
 h1{
@@ -49,3 +50,27 @@ textarea{
     max-width: 200px;
     font-family: sans-serif;
 }
+
+h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.Caja{
+    width: 40vh;
+    height: 40vh;
+    margin: 0;
+    background-color: white;
+    display:inline-block;
+    overflow: hidden;
+    justify-content: center;
+    text-align:center;
+}
+
+img{
+    width: 65%;
+    height: 80%;
+    box-shadow: 0px 0px 40px gray;
+    margin-top: 30px;
+}
+
