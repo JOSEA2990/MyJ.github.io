@@ -1,6 +1,7 @@
 body{
     background-color: rgb(212, 124, 212);
     text-align: center;
+    margin: 0;
 }
 
 h1{
@@ -8,7 +9,7 @@ h1{
     margin: 0;
     margin-bottom: 10px;
     margin-top: 50px;
-    font-weight: 100px;
+    font-size: 5vh;
 }
 
 form{
@@ -55,17 +56,9 @@ input{
     border-radius: 8px;
 }
 
-textarea{
-    min-width: 100%;
-    resize: vertical;
-    min-height: 100px;
-    max-width: 200px;
-    font-family: sans-serif;
-}
-
 h2{
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .Caja{
@@ -96,14 +89,26 @@ h2{
 }
 
 img{
-    width: 75%;
-    height: 90%;
-    box-shadow: 0px 0px 70px gray;
-    margin-top: 15px;
+    width: 78%;
+    height: 92%;
+    box-shadow: 0px 0px 80px gray;
+    margin-top: 10px;
 }
 
 .CajaBaja{
+    background:linear-gradient(rgb(212, 124, 212),black,rgb(212, 124, 212));
+    min-height: 70px;
+    margin: 0;
     margin-top: 30px;
-    background-color: black;
-    min-height: 50px;
+    margin-bottom: 30px;
+    width:auto;
+    height: 8vh;
+}
+
+a{
+    height: 10vh;
+    color: white;
+    padding: auto;
+    font-size: 3.5vh;
+    font-weight: 400;
 }
